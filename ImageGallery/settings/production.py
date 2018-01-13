@@ -25,7 +25,7 @@ SECRET_KEY = 'gv8m4tppnq!%hn*jna9)e90tt*r2x9)_e35yr8g+13i()2rtn5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost','https://imageworld.herokuapp.com/','imageworld.herokuapp.com']
 
 
 # Application definition
