@@ -24,8 +24,8 @@ class AlbumModel(models.Model):
 
 
 def location(instance,filename):
-    print(instance.user)
-    obj = AlbumModel.objects.get(first_name=instance.user)
+    # print(instance.user)
+    obj = AlbumModel.objects.get(pk=instance.id)
     name = str(obj.first_name) + str(obj.last_name)
     file_extension = str(filename).split('.')
     if file_extension[-1]=='mp3':
