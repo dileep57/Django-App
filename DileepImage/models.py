@@ -17,15 +17,15 @@ class AlbumModel(models.Model):
     update       = models.DateTimeField(auto_now=True,auto_now_add=False)
 
     def __str__(self):
-        return self.first_name
+        return self.first_name+"_"+str(self.id)
 
     def get_absolute_url(self):
         return reverse("DileepImage:index")
 
 
 def location(instance,filename):
-    # print(instance.user)
-    obj = AlbumModel.objects.get(pk=instance.id)
+    lis = str(instance.user).split('_')
+    obj = AlbumModel.objects.get(pk=str(lis[1]))
     name = str(obj.first_name) + str(obj.last_name)
     file_extension = str(filename).split('.')
     if file_extension[-1]=='mp3':
