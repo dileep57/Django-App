@@ -127,8 +127,9 @@ def update_album(request,album_id=None):
 def youtube_search(request,album_id=None):
     album = get_object_or_404(AlbumModel,pk=album_id)
     if request.method=='GET':
-        print(request.GET.get('query'))
-        urrl = (request.GET.get('query'))
+        urrl = request.GET.get('query')
+        if request.GET.get('query')==None:
+            urrl = "taylor swift song"
         strr = '+'.join(str(urrl).split())
         url = 'https://www.youtube.com/results?search_query='+strr
         data = requests.get(url,headers={'User-Agent': 'Mozilla/5.0'})
@@ -139,8 +140,8 @@ def youtube_search(request,album_id=None):
 
         context = {"all_name_link":title,'album':album }
         return render(request,'DileepImage/youtube.html',context)
-
-    context = {'album':album}
+    title = {'all_name_link':'top 10 song'}
+    context = {'album':album,"all_name__link":title}
     return render(request,'DileepImage/youtube.html',context)
 
 
