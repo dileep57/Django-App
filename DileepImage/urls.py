@@ -12,4 +12,5 @@ urlpatterns = [
     url(r'^all_image/(?P<album_id>[0-9]+)/$',views.show_image,name='all_image'),
     url(r'^add_image/(?P<pk>[0-9]+)/$',views.addimage,name='add_image'),
     url(r'^delete_album/(?P<album_id>[0-9]+)/$',views.delete_album,name='del_album'),
+    url(r'^update_album/(?P<album_id>[0-9]+)/$',views.update_album,name='edt_album'),
 ]
