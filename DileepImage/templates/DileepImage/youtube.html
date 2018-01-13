@@ -1,0 +1,98 @@
+ 
+{% extends 'DileepImage/base.html' %}
+{% block adds %}<a href="{% url 'DileepImage:add_album' %}"><span class="glyphicon glyphicon-plus" aria-hidden="true">Add-Album</span></a>{%endblock%}
+{% block body%}
+
+<div class="container-fluid songs-container">
+
+    <div class="row">
+        <div class="col-sm-4 col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <a href=" ">
+
+                        {% if album.banner %}
+
+                            <img src="{{album.banner.url}}" class="img-responsive">
+                        {% else %}
+                            <h3>No image to display</h3>
+                        {% endif %}
+                    </a>
+                <h1>{{ album.first_name }}&nbsp;{{ album.last_name }} <small></small></h1>
+                     
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Right Song Info -->
+        <div class="col-sm-8 col-md-9">
+           <ul class="nav nav-pills" style="margin-bottom: 10px;">
+                <li role="presentation" ><a href="{%url 'DileepImage:album_detail' album.id %}">View All Song</a></li>
+                <li role="presentation" ><a href="{%url 'DileepImage:add_song' album.id %}">Add New Song</a></li>
+                 <li role="presentation" class=""><a href="{%url 'DileepImage:all_image' album.id%}">View All Image</a></li>
+                 <li role="presentation"><a href="{%url 'DileepImage:add_image' album.id %}">Add New Image</a></li>
+                 <li role="presentation" class="active"><a href="{%url 'DileepImage:youtube' album.id %}">Search Song</a></li>
+            </ul>
+            
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+<div class='col-sm-12 col-md-12'>
+                    <form class="form-horizontal" method="GET" action="{% url 'DileepImage:youtube' album.id %}">
+                  <div class='col-sm-4 col-md-4'>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="query" placeholder="youtube search">
+                </div>
+            </div>
+                <div class='col-sm-7 col-md-7'>
+                <div class="form-group">
+                    &nbsp;&nbsp;<button type="submit" class="btn btn-default" >Search</button>
+                </div>
+            </div>
+            </form>
+
+             <div class="row">
+                  
+           {% for name,link in all_name_link.items %}
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+        <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.youtube.com/embed/{{link}}" class="embed-responsive-item"> </iframe>
+  </div>
+      <div class="caption">
+        <span>{{name|truncatechars:300}}...</span>
+
+
+      </div>
+    </div>
+  </div>
+   {% cycle '' '' '<div class="clearfix visible-lg"></div>' %}
+  {%endfor%}
+                 
+                 
+</div>
+            
+</div>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+</div>
+
+</div>
+
+
+
+{% endblock %}  

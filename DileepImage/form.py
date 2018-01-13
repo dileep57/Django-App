@@ -26,3 +26,4 @@ class Add_image(forms.ModelForm):
 
     def get_absolute_url(self):
         return reverse('DileepImage:index')
+
