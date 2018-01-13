@@ -35,9 +35,9 @@ def addalbum(request):
 
 
 
-def addsong(request,pk):
+def addsong(request,album_id):
 	form = Add_Song(request.POST or None, request.FILES or None)
-	album = AlbumModel.objects.get(id=pk)
+	album = get_object_or_404(AlbumModel,pk=album_id)
 	if form.is_valid():
 		album_song = album.songmodel_set.all()
 		for s in album_song:
@@ -61,6 +61,7 @@ def addsong(request,pk):
 		instance.save()
 		context = {'album':album}
 		return render(request,"DileepImage/albummodel_detail.html",context)
+
 	context = {'form':form,'album':album}
 	return render(request,"DileepImage/add_song.html",context)
 
@@ -73,9 +74,9 @@ def delete_song(request, album_id, song_id):
 
 
 
-def addimage(request,pk):
+def addimage(request,album_id):
 	form = Add_image(request.POST or None, request.FILES or None)
-	album = AlbumModel.objects.get(id=pk)
+	album = get_object_or_404(AlbumModel,pk=album_id)
 	if form.is_valid():
 		instance = form.save(commit=False)
 		instance.user = album

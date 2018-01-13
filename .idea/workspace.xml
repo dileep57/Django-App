@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa00f0d-b438-498b-b8bc-793f41fb9974" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/517_UXw0fga.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/DileepMeena/Images/426.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/DileepMeena/Images/431.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/DileepMeena/Images/440.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/DileepMeena/Images/445.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/DileepMeena/Images/517.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/DileepMeena/Images/526.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/DileepMeena/Song/Wajah_Tum_Ho_-_Lounge.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/RahulPriadarshi/Banner/593.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/RajatDoley/Banner/434.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/RajatPatel/Banner/438.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/ShubhamSingh/Banner/457.JPG" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DileepImage/templates/DileepImage/albummodel_list.html" afterPath="$PROJECT_DIR$/DileepImage/templates/DileepImage/albummodel_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DileepImage/urls.py" afterPath="$PROJECT_DIR$/DileepImage/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DileepImage/views.py" afterPath="$PROJECT_DIR$/DileepImage/views.py" />
     </list>
@@ -32,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/DileepImage/templates/DileepImage/albummodel_list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+              <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -40,25 +51,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DileepImage/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="36" />
-              <folding />
+              <folding>
+                <marker date="1515868522140" expanded="true" signature="127:822" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DileepImage/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="107" column="33" lean-forward="false" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+              <caret line="108" column="33" lean-forward="false" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
-                <marker date="1515865068308" expanded="true" signature="3470:3888" ph="..." />
-                <marker date="1515865068308" expanded="true" signature="3625:3802" ph="..." />
               </folding>
             </state>
           </provider>
@@ -166,9 +177,9 @@
         <option value="$PROJECT_DIR$/ImageGallery/settings/local.py" />
         <option value="$PROJECT_DIR$/ImageGallery/settings/production.py" />
         <option value="$PROJECT_DIR$/DileepImage/models.py" />
-        <option value="$PROJECT_DIR$/DileepImage/views.py" />
         <option value="$PROJECT_DIR$/DileepImage/urls.py" />
         <option value="$PROJECT_DIR$/DileepImage/templates/DileepImage/albummodel_list.html" />
+        <option value="$PROJECT_DIR$/DileepImage/views.py" />
       </list>
     </option>
   </component>
@@ -277,7 +288,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="16" width="1368" height="739" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20807926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -286,7 +296,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32367972" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32367972" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -376,7 +386,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1515868522140" expanded="true" signature="127:822" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -386,8 +398,6 @@
           <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1515865068308" expanded="true" signature="3470:3888" ph="..." />
-            <marker date="1515865068308" expanded="true" signature="3625:3802" ph="..." />
           </folding>
         </state>
       </provider>
@@ -417,7 +427,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="64" />
-          <folding />
+          <folding>
+            <marker date="1515868522140" expanded="true" signature="127:822" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -442,8 +454,6 @@
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1515865068308" expanded="true" signature="3470:3888" ph="..." />
-            <marker date="1515865068308" expanded="true" signature="3625:3802" ph="..." />
           </folding>
         </state>
       </provider>
@@ -464,8 +474,6 @@
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="28" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1515865068308" expanded="true" signature="3470:3888" ph="..." />
-            <marker date="1515865068308" expanded="true" signature="3625:3802" ph="..." />
           </folding>
         </state>
       </provider>
@@ -507,7 +515,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
+          <folding>
+            <marker date="1515868522140" expanded="true" signature="127:822" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -527,8 +537,6 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="27" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1515865068308" expanded="true" signature="3470:3888" ph="..." />
-            <marker date="1515865068308" expanded="true" signature="3625:3802" ph="..." />
           </folding>
         </state>
       </provider>
@@ -544,7 +552,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="68" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="68" />
-          <folding />
+          <folding>
+            <marker date="1515868522140" expanded="true" signature="127:822" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -703,22 +713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DileepImage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="107" column="33" lean-forward="false" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-            <marker date="1515865068308" expanded="true" signature="3470:3888" ph="..." />
-            <marker date="1515865068308" expanded="true" signature="3625:3802" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DileepImage/templates/DileepImage/albummodel_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
           <folding>
             <element signature="n#style#0;n#a#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -729,7 +727,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="36" />
-          <folding />
+          <folding>
+            <marker date="1515868522140" expanded="true" signature="127:822" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DileepImage/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="108" column="33" lean-forward="false" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
