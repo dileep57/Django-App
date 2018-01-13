@@ -1,0 +1,16 @@
+automium==0.2.6
+automium-web==0.1.1
+click==6.7
+Django==2.0.1
+Flask==0.12.2
+gunicorn==19.0.0
+itsdangerous==0.24
+Jinja2==2.10
+legacy==0.1.6
+MarkupSafe==1.0
+Pillow==5.0.0
+psycopg2==2.7.3.2
+pytz==2017.3
+reverse==0.1.0
+views==0.3
+Werkzeug==0.14.1

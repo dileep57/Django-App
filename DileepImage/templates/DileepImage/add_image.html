@@ -1,0 +1,67 @@
+{% extends 'DileepImage/base.html' %}
+{% block adds %}<a href="{% url 'DileepImage:add_album' %}"><span class="glyphicon glyphicon-plus" aria-hidden="true">Add-Album</span></a>{%endblock%}
+{% block body%}
+
+<div class="container-fluid songs-container">
+
+    <div class="row">
+        <div class="col-sm-4 col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <a href=" ">
+
+                        {% if album.banner %}
+
+                            <img src="{{album.banner.url}}" class="img-responsive">
+                        {% else %}
+                            <h3>No image to display</h3>
+                        {% endif %}
+                    </a>
+                <h1>{{ album.first_name }}&nbsp;{{ album.last_name }} <small></small></h1>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Right Song Info -->
+        <div class="col-sm-8 col-md-9">
+
+            <ul class="nav nav-pills" style="margin-bottom: 10px;">
+                <li role="presentation" ><a href="{%url 'DileepImage:album_detail' album.id %}">View All Song</a></li>
+                <li role="presentation" ><a href="{%url 'DileepImage:add_song' album.id %}">Add New Song</a></li>
+                 <li role="presentation" class=""><a href="{%url 'DileepImage:all_image' album.id%}">View All Image</a></li>
+                <li role="presentation" class="active"><a href="{%url 'DileepImage:add_image' album.id %}">Add New Image</a></li>
+            </ul>
+
+
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+
+                    <h3>Add New Image</h3>
+
+                    {% if error_message %}
+                        <p><strong>{{ error_message }}</strong></p>
+                    {% endif %}
+
+                   {%include 'DileepImage/form_panel.html' %}
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+</div>
+
+</div>
+
+{%endblock%}

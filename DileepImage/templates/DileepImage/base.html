@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title%}ImageWorld{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'DileepImage/style.css' %}" />
+     
+
+
+</head>
+<body>
+<nav class="navbar navbar-inverse ">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topbar">
+            <span class="'icon-bar"></span>
+            <span class="'icon-bar"></span>
+            <span class="'icon-bar"></span>
+        </button>
+        <a href="{% url 'DileepImage:index' %}" class="navbar-brand"> ImageGallery</a>
+    </div>
+        <div class="collapse navbar-collapse" id="topbar">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="{% url 'DileepImage:index' %}">
+                        <span class="glyphicon glyphicon-film" aria-hidden="true">
+                           <!--All-Albums--> All-Album
+                        </span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <form class="navbar-form navbar-left" role="search" method="get" action="#">
+                <div class="form-group">
+                    <input type="search" class="form-control" name="q" value="">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default">Search</button>
+                </div>
+            </form>
+
+             <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                    {% block adds %}
+                    <a href=" "></a>
+                    {% endblock %}
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+{% block body %}
+{% endblock %}
+</body>
+</html>
