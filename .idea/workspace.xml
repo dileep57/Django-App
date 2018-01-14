@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fa00f0d-b438-498b-b8bc-793f41fb9974" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DileepImage/views.py" afterPath="$PROJECT_DIR$/DileepImage/views.py" />
-    </list>
+    <list default="true" id="7fa00f0d-b438-498b-b8bc-793f41fb9974" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +69,8 @@
               <caret line="143" column="52" lean-forward="true" selection-start-line="143" selection-start-column="52" selection-end-line="143" selection-end-column="52" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
-                <marker date="1515884737400" expanded="true" signature="4865:4880" ph="..." />
+                <marker date="1515884973744" expanded="true" signature="4781:5659" ph="..." />
+                <marker date="1515884973744" expanded="true" signature="4865:4874" ph="..." />
               </folding>
             </state>
           </provider>
@@ -455,7 +454,8 @@
           <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1515884737400" expanded="true" signature="4865:4880" ph="..." />
+            <marker date="1515884973744" expanded="true" signature="4781:5659" ph="..." />
+            <marker date="1515884973744" expanded="true" signature="4865:4874" ph="..." />
           </folding>
         </state>
       </provider>
@@ -527,7 +527,8 @@
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1515884737400" expanded="true" signature="4865:4880" ph="..." />
+            <marker date="1515884973744" expanded="true" signature="4781:5659" ph="..." />
+            <marker date="1515884973744" expanded="true" signature="4865:4874" ph="..." />
           </folding>
         </state>
       </provider>
@@ -548,7 +549,8 @@
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="28" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1515884737400" expanded="true" signature="4865:4880" ph="..." />
+            <marker date="1515884973744" expanded="true" signature="4781:5659" ph="..." />
+            <marker date="1515884973744" expanded="true" signature="4865:4874" ph="..." />
           </folding>
         </state>
       </provider>
@@ -627,7 +629,8 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="27" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1515884737400" expanded="true" signature="4865:4880" ph="..." />
+            <marker date="1515884973744" expanded="true" signature="4781:5659" ph="..." />
+            <marker date="1515884973744" expanded="true" signature="4865:4874" ph="..." />
           </folding>
         </state>
       </provider>
@@ -886,7 +889,8 @@
           <caret line="143" column="52" lean-forward="true" selection-start-line="143" selection-start-column="52" selection-end-line="143" selection-end-column="52" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1515884737400" expanded="true" signature="4865:4880" ph="..." />
+            <marker date="1515884973744" expanded="true" signature="4781:5659" ph="..." />
+            <marker date="1515884973744" expanded="true" signature="4865:4874" ph="..." />
           </folding>
         </state>
       </provider>

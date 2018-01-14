@@ -25,7 +25,7 @@ SECRET_KEY = 'gv8m4tppnq!%hn*jna9)e90tt*r2x9)_e35yr8g+13i()2rtn5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -76,8 +76,13 @@ WSGI_APPLICATION = 'ImageGallery.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'projectimg',
+        'USER': 'dileep',
+        'PASSWORD': 'meena',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 

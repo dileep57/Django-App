@@ -29,7 +29,7 @@
                 <li class="active">
                     <a href="{% url 'DileepImage:index' %}">
                         <span class="glyphicon glyphicon-film" aria-hidden="true">
-                           <!--All-Albums--> Add-Album
+                           <!--All-Albums--> All-Album
                         </span>
                     </a>
                 </li>
@@ -47,9 +47,7 @@
 
              <ul class="nav navbar-nav navbar-right">
                 <li class="">
-                    {% block adds %}
-                    <a href=" "></a>
-                    {% endblock %}
+                   <a href="{% url 'DileepImage:add_album' %}"><span class="glyphicon glyphicon-plus" aria-hidden="true">Add-Album</span></a>
                 </li>
 
             </ul>
