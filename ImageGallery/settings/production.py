@@ -82,7 +82,7 @@ DATABASES = {
         'USER': 'dileep',
         'PASSWORD': 'meena',
         'HOST': 'imageworld.herokuapp.com',
-        'PORT': '',
+        'PORT': '443',
     }
 }
 
