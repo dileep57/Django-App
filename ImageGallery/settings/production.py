@@ -81,8 +81,8 @@ DATABASES = {
         'NAME': 'projectimg',
         'USER': 'dileep',
         'PASSWORD': 'meena',
-        'HOST': 'imageworld.herokuapp.com',
-        'PORT': '443',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
