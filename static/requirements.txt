@@ -13,4 +13,4 @@ psycopg2==2.7.3.2
 pytz==2017.3
 reverse==0.1.0
 views==0.3
-Werkzeug==0.14.1
+Werkzeug==0.15.3
